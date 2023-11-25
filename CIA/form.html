@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf8">
+        <title>First Form</title>
+    </head>
+    <body>
+        <h2><center>Registration Form</center></h2>
+    </body>
+    <form>
+        <table border="2" cellpadding="10" align="center">
+            <tbody>
+
+            </tbody>
+                <tr>
+                    <td><b>First Name</b></First></td>
+                    <td><input type="text" name="First Name" placeholder="First Name"></td>
+                </tr>
+                <tr>
+                    <td><b>Last Name</b></td>
+                    <td><input type="text" name="Last Name" placeholder="Last Name"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Gender</b></td>
+                    <td><input type="radio" id="Male" name="Gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Female" name="Gender" value="Female">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>DOB</b></td>
+                    <td><input type="date" name="Date of Birth"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Qualification</b></td>
+                    <td><input type="checkbox" id="MCA" name="Qualification" value="MCA">
+                    <label for="MCA">MCA</label>
+                    <input type="checkbox" id="MBA" name="Qualification" value="MCA">
+                    <label for="MBA">MBA</label>
+                    <input type="checkbox" id="MTECH" name="Qualification" value="MTECH">
+                    <label for="MTECH">MTECH</label>
+                    <input type="checkbox" id="Other" name="Qualification" value="Other">
+                    <label for="Other">Other</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Contact</b></td>
+                    <td><input type="number" name="Phone Number" placeholder="Phone Number"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Email</b></td>
+                    <td><input type="email" name="Email id" placeholder="@gmail.com"></td>
+                </tr>
+
+                <tr>
+                    <td><b>Address</b></td>
+                    <td> 
+                        <textarea cols="12" rows="6" placeholder="Address"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Select Department:</b></td>
+                    <td>
+                        <select name="Department">
+                          <option value="--Select--">--Select--</option>
+                          <option value="MCA">MCA</option>
+                          <option value="MBA">MBA</option>
+                          <option value="MTECH">MTECH</option>
+                          <option value="Other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="button">Register</button>
+                        <button type="button">Cancel</button>
+                    </td>
+                </tr>
+        </table>
+    </form>
+
+    <body>
+        <h2><center>Login Form</center></h2>
+    </body>
+    
+    <form>
+        <table border="2" cellpadding="10" align="center">
+            <tr>
+                <td><b>Username</b></td>
+                <td><input type="text" name="Username"></td>
+            </tr>
+            <tr>
+                <td><b>Password</b></td>
+            <td><input type="password" name="Password"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="button">Login</button>
+                    <button type="button">Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</html>

@@ -1,0 +1,19 @@
+.h1{
+    color:brown;
+}
+
+.h4{
+    color:chocolate;
+}
+
+.h5{
+    color:crimson;
+}
+
+.ptag{
+    background-color:yellow;
+    color:black;
+    border: 1px;
+    border-style:dashed;
+    text-align: center;
+}
